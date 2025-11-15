@@ -8,9 +8,9 @@
     <header> <!-- identifies this block of code as header for page -->
         <nav> <!-- navigation bar -->
             <ul> <!-- unordered list (list items show up as bullet points) -->
-                <li>HOME</li>
-                <li>STORE</li>
-                <li>ABOUT</li>
+                <li><a href="index.html">HOME</a></li> <!-- anchors link to page on same site to text -->
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
         <hr> <!-- horizontal rule, creates horizontal line across page -->
@@ -95,12 +95,21 @@
     <footer>
         <h3>Dua Lipa</h3>
         <ul>
-            <li><img src="images/youtube-logo.png"></li>
-            <!-- YouTube link: https: https://www.youtube.com/@dualipa -->
-             <li><img src="images/spotify-logo.png"></li>
-            <!-- Spotify link: https://open.spotify.com/artist/2yNNYQBChuox9A5Ka93BIn?si=gRWbGMjBShmU2qTJ0sdZUg -->
-            <li><img src="images/instagram-logo.png"></li>
-            <!-- Instagram link: https://www.instagram.com/dualipa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== -->
+            <li>
+                <a href="https://www.youtube.com/@dualipa" target="_blank"> <!-- opens link in new tab instead of overriding current one -->
+                    <img src="images/youtube-logo.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we?si=hwg8KuvDSDu-GG9mmWQMXQ" target="_blank">
+                    <img src="images/spotify-logo.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/dualipa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                    <img src="images/instagram-logo.png">
+                </a>
+            </li>
         </ul>
     </footer>
 </body>
