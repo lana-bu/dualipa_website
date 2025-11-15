@@ -17,3 +17,5 @@ This is a simple website centered around my favorite singer. It will include a H
 - Future Nostalgia (The Moonlight Edition) album cover image: https://www.thecrimson.com/article/2021/2/23/future-nostalgia-moonlight-edition-review/
 - Radical Optimism album cover image: https://www.albumoftheyear.org/user/albumsrated/album/901411-radical-optimism/
 - Radical Optimism alternate album cover image: https://rateyourmusic.com/release/album/dua-lipa/radical-optimism-6/
+- Merch t-shirt image: https://usshop.dualipa.com/collections/apparel/products/watermelon-tee
+- Merch hoodie image: https://usshop.dualipa.com/collections/apparel/products/radical-optimism-hoodie
