@@ -11,3 +11,6 @@ This is a simple website centered around my favorite singer. It will include a H
 - Instagram logo image: https://clipart.info/instagram-png-logo-transparent-7580
 - Spotify logo image: https://freebiesupply.com/logos/spotify-logo-3/
 - YouTube logo image: https://freelogopng.com/image/568
+- Dua Lipa album cover image: https://www.iheart.com/artist/dua-lipa-30983282/songs/new-rules-47749829/
+- Future Nostalgia album cover image: https://genius.com/albums/Dua-lipa/Future-nostalgia
+- Radical Optimism album cover image: https://www.albumoftheyear.org/user/albumsrated/album/901411-radical-optimism/
