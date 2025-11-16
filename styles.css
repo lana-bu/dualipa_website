@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
 
 @font-face {
     font-family: "SerreriaExtravagante";
@@ -69,4 +70,30 @@ html, body { /* gets rid of white edge on sides of header */
 
 .singer-name-large {
     font-size: 9em;
+}
+
+.content-section {
+    margin: 1em;
+    font-size: 1.3em;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto; /* automatically centers text and puts even margin around it */
+    padding: 0 1.5em; /* no padding on top and bottom, a little on the sides */
+}
+
+.section-header {
+    font-family: "Numans";
+    font-weight: normal;
+    color: #447;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-singer-image {
+    float: left;
+    width: 400px;
+    margin: 30px;
+    border-radius: 50%;
 }
