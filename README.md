@@ -7,6 +7,7 @@ This is a simple website centered around my favorite singer. It will include a H
 - Italicize text in HTML: https://www.geeksforgeeks.org/html/how-to-make-text-italic-in-html/
 - CSS basics: https://www.youtube.com/watch?v=r1xBCi5SOjw
 - Fix for invisible border: https://learn.coderslang.com/0283-css-border-not-showing/
+- Using oft (opentype) font file: https://www.geeksforgeeks.org/css/how-to-use-otf-fonts-on-web-browsers/
 ### Site information
 - Tour dates and locations: https://www.dualipa.com/tour/
 - About info: https://en.wikipedia.org/wiki/Dua_Lipa
