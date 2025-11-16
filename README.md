@@ -4,6 +4,7 @@ This is a simple website centered around my favorite singer. It will include a H
 ## Sources
 ### Code help
 - Website tutorial: https: https://youtu.be/kMT54MPz9oE?si=skUQjMbRGmoOXuzP
+- Italicize text in HTML: https://www.geeksforgeeks.org/html/how-to-make-text-italic-in-html/
 ### Site information
 - Tour dates and locations: https://www.dualipa.com/tour/
 - About info: https://en.wikipedia.org/wiki/Dua_Lipa
