@@ -8,6 +8,8 @@ This is a simple website centered around my favorite singer. It will include a H
 - CSS basics: https://www.youtube.com/watch?v=r1xBCi5SOjw
 - Fix for invisible border: https://learn.coderslang.com/0283-css-border-not-showing/
 - Using oft (opentype) font file: https://www.geeksforgeeks.org/css/how-to-use-otf-fonts-on-web-browsers/
+### Fonts
+- Website title font: https://fontlibrary.org/en/font/serreria-extravagante
 ### Site information
 - Tour dates and locations: https://www.dualipa.com/tour/
 - About info: https://en.wikipedia.org/wiki/Dua_Lipa
