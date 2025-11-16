@@ -19,11 +19,11 @@ html, body { /* gets rid of white edge on sides of header */
     padding: 0;
 }
 
-.nav, ul { /* gets rid of white edge on top of header */
+.nav ul { /* gets rid of white edge on top of header */
     margin: 0;
 }
 
-.nav, li {
+.nav li {
     display: inline; /* makes all list elements in nav class sit side by side */
 }
 
@@ -61,7 +61,6 @@ html, body { /* gets rid of white edge on sides of header */
 .singer-name {
     text-align: center;
     margin: 0;
-    padding-top: 70px;
     font-size: 4em;
     font-family: "SerreriaExtravagante";
     font-weight: normal;
@@ -69,6 +68,7 @@ html, body { /* gets rid of white edge on sides of header */
 }
 
 .singer-name-large {
+    padding-top: 70px;
     font-size: 9em;
 }
 
@@ -96,4 +96,26 @@ html, body { /* gets rid of white edge on sides of header */
     width: 400px;
     margin: 30px;
     border-radius: 50%;
+}
+
+.main-footer {
+    background-color: #4F5C7C;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex; /* flex box is complex CSS element, here it is lining up heading and list side-by-side */
+    align-items: center; /* centers everything vertically in its flex box */
+}
+
+.main-footer-container ul {
+    flex-grow: 1; /* makes list take up as much space as possible */
+    text-align: end; /* makes text align to right side instead of left side */
+    padding: 1em;
+
+}
+
+.footer-nav li {
+    padding: 0 .5em;
 }
