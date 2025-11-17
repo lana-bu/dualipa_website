@@ -3,23 +3,24 @@
 <head>
     <title>Dua Lipa</title>
     <meta name="description" content="View the upcoming performance dates for the Radical Optimism Tour.">
+    <link rel="stylesheet" href="styles.css"/> <!-- css style template that page should use -->
 </head>
 <body>
-    <header> <!-- identifies this block of code as header for page -->
-        <nav> <!-- navigation bar -->
+    <header class="main-header"> <!-- identifies this block of code as header for page -->
+        <nav class="nav main-nav"> <!-- navigation bar -->
             <ul> <!-- unordered list (list items show up as bullet points) -->
                 <li><a href="index.html">HOME</a></li> <!-- anchors link to page on same site to text -->
                 <li><a href="store.html">STORE</a></li>
                 <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
-        <hr> <!-- horizontal rule, creates horizontal line across page -->
-        <img src="images/waves.jpg">
-        <h1>Dua Lipa</h1> <!-- 6 heading sizes total, each one progressively smaller-->
-        <button type="button">Get Latest Album</button> <!-- button type indicates this is generic button -->
+        <h1 class="singer-name singer-name-large">Dua Lipa</h1> <!-- 6 heading sizes total, each one progressively smaller-->
+        <div class="container">
+            <button class="btn btn-header" type="button">Get Latest Album</button> <!-- button type indicates this is generic button -->
+        </div>
         <br> <!-- creates new line break between two inline elements -->
         <br>
-        <button type="button">&#9658</button> <!-- entity for play symbol -->
+        <button class="btn btn-header btn-play" type="button">&#9658</button> <!-- entity for play symbol -->
     </header>
     <section> <!-- grouping of code all inside one section, each element inside is related to each other -->
         <h2>RADICAL OPTIMISM TOUR</h2>

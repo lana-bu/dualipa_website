@@ -119,3 +119,38 @@ html, body { /* gets rid of white edge on sides of header */
 .footer-nav li {
     padding: 0 .5em;
 }
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em; /* adds space between text and edge of button */
+    cursor: pointer; /* turns cursor into pointing hand when hovering over button */
+}
+
+.btn-header {
+    display: block;
+    margin: 0 auto; /* can use .5em 15% 2em 15% to make it off-center */
+    color: white;
+    border: 2px solid #66bad6;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block; /* buttons are not block elements, need to make it a block to use auto margin */
+    margin: 0 auto;
+    color: #66bad6;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
