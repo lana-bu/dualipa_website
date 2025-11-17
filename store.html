@@ -3,110 +3,97 @@
 <head>
     <title>Dua Lipa | Store</title>
     <meta name="description" content="Purchase Dua Lipa's music.">
+    <link rel="stylesheet" href="styles.css"/> <!-- css style template that page should use -->
 </head>
 <body>
-    <header> <!-- identifies this block of code as header for page -->
-        <nav> <!-- navigation bar -->
+    <header class="main-header"> <!-- identifies this block of code as header for page -->
+        <nav class="main-nav nav"> <!-- navigation bar -->
             <ul> <!-- unordered list (list items show up as bullet points) -->
                 <li><a href="index.html">HOME</a></li> <!-- anchors link to page on same site to text -->
                 <li><a href="store.html">STORE</a></li>
                 <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
-        <hr> <!-- horizontal rule, creates horizontal line across page -->
-        <img src="images/waves.jpg">
-        <h1>Dua Lipa</h1> <!-- 6 heading sizes total, each one progressively smaller-->
+        <h1 class="singer-name singer-name-large">Dua Lipa</h1> <!-- 6 heading sizes total, each one progressively smaller-->
     </header>
-    <section> <!-- grouping of code all inside one section, each element inside is related to each other -->
-        <h2>MUSIC</h2>
-        <div> <!-- one album block -->
-            <div> <!-- so that album name is on its own line -->
-                <strong>Radical Optimism</strong>
+    <section class="container content-section"> <!-- grouping of code all inside one section, each element inside is related to each other -->
+        <h2 class="section-header">MUSIC</h2>
+        <div class="shop-items">
+            <div class="shop-item"> <!-- one album block -->
+                <span class="shop-item-title">Radical Optimism</span>
+                <img class="shop-item-image" src="images/radical-optimism-album.webp" width="300">
+                <div class="shop-item-details"> <!-- for price and cart button to be on their own line -->
+                    <span class="shop-item-price">$18.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
             </div>
-            <img src="images/radical-optimism-album.webp" width="300">
-            <div> <!-- for price and cart button to be on their own line -->
-                <span>$18.99</span>
-                <button type="button">ADD TO CART</button>
+            <div class="shop-item">
+                <span class="shop-item-title">Radical Optimism (Alt Cover)</span>
+                <img class="shop-item-image" src="images/radical-optimism-alt-album.png" width="300">
+                <div class="shop-item-details"> 
+                    <span class="shop-item-price">$20.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
             </div>
-        </div>
-        <div>
-            <div>
-                <strong>Radical Optimism (Alt Cover)</strong>
+            <div class="shop-item"> 
+                <span class="shop-item-title">Future Nostalgia</span>
+                <img class="shop-item-image" src="images/future-nostalgia-album.jpg" width="300">
+                <div class="shop-item-details"> 
+                    <span class="shop-item-price">$16.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
             </div>
-            <img src="images/radical-optimism-alt-album.png" width="300">
-            <div> 
-                <span>$20.99</span>
-                <button type="button">ADD TO CART</button>
+            <div class="shop-item"> 
+                <span class="shop-item-title">Future Nostalgia (The Moonlight Edition)</span>
+                <img class="shop-item-image" src="images/future-nostalgia-moonlight-album.jpg" width="300">
+                <div class="shop-item-details"> 
+                    <span class="shop-item-price">$22.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
             </div>
-        </div>
-        <div> 
-            <div> 
-                <strong>Future Nostalgia</strong>
+            <div class="shop-item"> 
+                <span class="shop-item-title">Dua Lipa</span>
+                <img class="shop-item-image" src="images/dua-lipa-album.jpeg" width="300">
+                <div class="shop-item-details"> 
+                    <span class="shop-item-price">$16.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
             </div>
-            <img src="images/future-nostalgia-album.jpg" width="300">
-            <div> 
-                <span>$16.99</span>
-                <button type="button">ADD TO CART</button>
-            </div>
-        </div>
-        <div> 
-            <div> 
-                <strong>Future Nostalgia (The Moonlight Edition)</strong>
-            </div>
-            <img src="images/future-nostalgia-moonlight-album.jpg" width="300">
-            <div> 
-                <span>$22.99</span>
-                <button type="button">ADD TO CART</button>
-            </div>
-        </div>
-        <div> 
-            <div> 
-                <strong>Dua Lipa</strong>
-            </div>
-            <img src="images/dua-lipa-album.jpeg" width="300">
-            <div> 
-                <span>$16.99</span>
-                <button type="button">ADD TO CART</button>
-            </div>
-        </div>
-        <div> 
-            <div> 
-                <strong>Dua Lipa (Deluxe Edition)</strong>
-            </div>
-            <img src="images/dua-lipa-deluxe-album.jpg" width="300">
-            <div> 
-                <span>$22.99</span>
-                <button type="button">ADD TO CART</button>
+            <div class="shop-item"> 
+                <span class="shop-item-title">Dua Lipa (Deluxe Edition)</span>
+                <img class="shop-item-image" src="images/dua-lipa-deluxe-album.jpg" width="300">
+                <div class="shop-item-details"> 
+                    <span class="shop-item-price">$22.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
             </div>
         </div>
     </section>
 
-    <section>
-        <h2>MERCH</h2>
-        <div> 
-            <div> 
-                <strong>Radical Optimism Tour T-shirt</strong>
+    <section class="container content-section">
+        <h2 class="section-header">MERCH</h2>
+        <div class="shop-items">
+            <div class="shop-item"> 
+                <span class="shop-item-title">Radical Optimism Tour T-shirt</span>
+                <img class="shop-item-image" src="images/tour-tshirt.webp" width="300">
+                <div class="shop-item-details"> 
+                    <span class="shop-item-price">$45.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
             </div>
-            <img src="images/tour-tshirt.webp" width="300">
-            <div> 
-                <span>$45.00</span>
-                <button type="button">ADD TO CART</button>
-            </div>
-        </div>
-        <div> 
-            <div> 
-                <strong>Radical Optimism Hoodie</strong>
-            </div>
-            <img src="images/tour-hoodie.webp" width="300">
-            <div> 
-                <span>$95.00</span>
-                <button type="button">ADD TO CART</button>
+            <div class="shop-items"> 
+                <span class="shop-item-title">Radical Optimism Hoodie</span>
+                <img class="shop-item-image" src="images/tour-hoodie.webp" width="300">
+                <div class="shop-item-details"> 
+                    <span class="shop-item-price">$95.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
             </div>
         </div>
     </section>
     
-    <section>
-        <h2>CART</h2>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
         <div> <!--wraps row-->
             <strong>ITEM</strong>
             &lt;&gt;
