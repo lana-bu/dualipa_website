@@ -154,3 +154,49 @@ html, body { /* gets rid of white edge on sides of header */
     width: 100px;
     height: 100px;
 }
+
+.tour-row {
+    border-bottom: 1px solid #447;
+    padding-bottom: 1em; /* space between content and border */
+    margin-bottom: 1em; /* space between row below border */
+
+}
+
+.tour-row:last-child { /* selects last item with the class */
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block; /* makes it possible to adjust width, adds a bit of unremovable space */
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #558;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city {
+    width: 28%;
+}
+
+.tour-arena {
+    width: 41%;
+}
+
+.tour-btn {
+    max-width: 16%; /* subtracted about 1% from each to account for inline block extra spacing, so a little less than 100% */
+}
+
+.btn-primary {
+    color: white;
+    background-color: #66bad6;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #56a2bb;
+}

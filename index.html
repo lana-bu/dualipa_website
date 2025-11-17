@@ -22,96 +22,68 @@
         <br>
         <button class="btn btn-header btn-play" type="button">&#9658</button> <!-- entity for play symbol -->
     </header>
-    <section> <!-- grouping of code all inside one section, each element inside is related to each other -->
-        <h2>RADICAL OPTIMISM TOUR</h2>
+    <section class="content-section container"> <!-- grouping of code all inside one section, each element inside is related to each other -->
+        <h2 class="section-header">RADICAL OPTIMISM TOUR</h2>
         <div> <!-- divide to encase rows as one block element -->
-            <div> <!-- divide to encase each row as a block element -->
-                <strong>NOV 15</strong>
-                <span>SÃO PAULO, BRAZIL</span>
-                <span>ESTADIO MORUMBIS</span>
-                <button type="button">BUY TICKETS</button>
-                <hr> <!-- horizontal rule, creates horizontal line across page -->
+            <div class="tour-row">
+                <span class="tour-item tour-date">NOV 22</span>
+                <span class="tour-item tour-city">RIO DE JANEIRO, BRAZIL</span>
+                <span class="tour-item tour-arena">ÁREA EXTERNA DA FARMASI ARENA</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
             </div>
-            <div>
-                <strong>NOV 22</strong>
-                &lt;&gt;
-                <span>RIO DE JANEIRO, BRAZIL</span>
-                &lt;&gt;
-                <span>ÁREA EXTERNA DA FARMASI ARENA</span>
-                &lt;&gt;
-                <button type="button">BUY TICKETS</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">NOV 25</span>
+                <span class="tour-item tour-city">LIMA, PERU</span>
+                <span class="tour-item tour-arena">ESTADIO SAN MARCOS</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
             </div>
-            <div>
-                <strong>NOV 25</strong>
-                &lt;&gt;
-                <span>LIMA, PERU</span>
-                &lt;&gt;
-                <span>ESTADIO SAN MARCOS</span>
-                &lt;&gt;
-                <button type="button">BUY TICKETS</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">NOV 28</span>
+                <span class="tour-item tour-city">BOGOTÁ, COLOMBIA</span>
+                <span class="tour-item tour-arena">ESTADIO EL CAMPÍN</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
             </div>
-            <div>
-                <strong>NOV 28</strong>
-                &lt;&gt;
-                <span>BOGOTÁ, COLOMBIA</span>
-                &lt;&gt;
-                <span>ESTADIO EL CAMPÍN</span>
-                &lt;&gt;
-                <button type="button">BUY TICKETS</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">DEC 1</span>
+                <span class="tour-item tour-city">MEXICO CITY, MEXICO</span>
+                <span class="tour-item tour-arena">ESTADIO GNP SEGUROS</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
             </div>
-            <div>
-                <strong>DEC 1</strong>
-                &lt;&gt;
-                <span>MEXICO CITY, MEXICO</span>
-                &lt;&gt;
-                <span>ESTADIO GNP SEGUROS</span>
-                &lt;&gt;
-                <button type="button">BUY TICKETS</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">DEC 2</span>
+                <span class="tour-item tour-city">MEXICO CITY, MEXICO</span>
+                <span class="tour-item tour-arena">ESTADIO GNP SEGUROS</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
             </div>
-            <div>
-                <strong>DEC 2</strong>
-                &lt;&gt;
-                <span>MEXICO CITY, MEXICO</span>
-                &lt;&gt;
-                <span>ESTADIO GNP SEGUROS</span>
-                &lt;&gt;
-                <button type="button">BUY TICKETS</button>
-                <hr>
-            </div>
-            <div>
-                <strong>DEC 5</strong>
-                &lt;&gt;
-                <span>MEXICO CITY, MEXICO</span>
-                &lt;&gt;
-                <span>ESTADIO GNP SEGUROS</span>
-                &lt;&gt;
-                <button type="button">BUY TICKETS</button>
+            <div class="tour-row">
+                <span class="tour-item tour-date">DEC 5</span>
+                <span class="tour-item tour-city">MEXICO CITY, MEXICO</span>
+                <span class="tour-item tour-arena">ESTADIO GNP SEGUROS</span>
+                <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
             </div>
         </div>
     </section>
-    <footer>
-        <h3>Dua Lipa</h3>
-        <ul>
-            <li>
-                <a href="https://www.youtube.com/@dualipa" target="_blank"> <!-- opens link in new tab instead of overriding current one -->
-                    <img src="images/youtube-logo-white.png" width="43">
-                </a>
-            </li>
-            <li>
-                <a href="https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we?si=hwg8KuvDSDu-GG9mmWQMXQ" target="_blank">
-                    <img src="images/spotify-logo-white.png" width="30">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/dualipa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                    <img src="images/instagram-logo-white.png" width="30">
-                </a>
-            </li>
-        </ul>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="singer-name">Dua Lipa</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.youtube.com/@dualipa" target="_blank"> <!-- opens link in new tab instead of overriding current one -->
+                        <img src="images/youtube-logo-white.png" width="57">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we?si=hwg8KuvDSDu-GG9mmWQMXQ" target="_blank">
+                        <img src="images/spotify-logo-white.png" width="50">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/dualipa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                        <img src="images/instagram-logo-white.png" width="40">
+                    </a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
