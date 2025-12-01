@@ -9,6 +9,7 @@ This is a simple website centered around my favorite singer. It will include a H
 - Fix for invisible border: https://learn.coderslang.com/0283-css-border-not-showing/
 - Using oft (opentype) font file: https://www.geeksforgeeks.org/css/how-to-use-otf-fonts-on-web-browsers/
 - Formatting shop item titles: http://howtocenterincss.com/
+- Formatting input box when selected: https://stackoverflow.com/questions/63789791/css-text-input-has-another-border-when-selected
 ### Fonts
 - Website title font: https://fontlibrary.org/en/font/serreria-extravagante
 ### Site information
