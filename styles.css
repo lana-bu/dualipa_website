@@ -313,3 +313,34 @@ html, body { /* gets rid of white edge on sides of header */
 .cart-quantity-input:focus {
     outline: 2px solid #56a2bb;
 }
+
+.cart-row:last-child {
+    border-bottom: 1px solid #447;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color:#336;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #447;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
